@@ -33,7 +33,7 @@
   },
   "game-009": {
     "status": "placeholder",
-    "source": "Pending cover download"
+    "source": "download failed or no public source"
   },
   "game-010": {
     "status": "downloaded",
@@ -284,8 +284,8 @@
     "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2344520/library_600x900_2x.jpg"
   },
   "game-072": {
-    "status": "placeholder",
-    "source": "Pending cover download"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/582160/library_600x900_2x.jpg"
   },
   "game-073": {
     "status": "downloaded",
@@ -325,26 +325,26 @@
   },
   "game-085": {
     "status": "placeholder",
-    "source": "Pending cover download"
+    "source": "download failed or no public source"
   },
   "game-086": {
     "status": "placeholder",
-    "source": "Pending cover download"
+    "source": "download failed or no public source"
   },
   "game-087": {
-    "status": "placeholder",
-    "source": "Pending cover download"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/library_600x900_2x.jpg"
   },
   "game-088": {
-    "status": "placeholder",
-    "source": "Pending cover download"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2322010/library_600x900_2x.jpg"
   },
   "game-083": {
-    "status": "placeholder",
-    "source": "Pending cover download"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/812140/library_600x900_2x.jpg"
   },
   "game-084": {
-    "status": "placeholder",
-    "source": "Pending cover download"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2208920/library_600x900_2x.jpg"
   }
 }
