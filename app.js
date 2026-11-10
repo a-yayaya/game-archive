@@ -14,17 +14,13 @@
   const unique = (arr) => Array.from(new Set(arr));
   const deepCopy = (x) => JSON.parse(JSON.stringify(x));
   const slug = (s) => String(s || '').replace(/[^\w-]/g, '').slice(0, 60) || 'game';
-  // Official cover sources override brittle Steam library artwork when needed.
-  // When available, place your own image in assets/covers and set game.cover to that path.
-  const COVER_OVERRIDES = {
-    '影之刃零': [
-      'https://image.api.playstation.com/vulcan/ap/rnd/202607/2810/5d34d0cd910fa48c730a1915b8cf112231c30e667e2169ea.jpg',
-      'https://image.api.playstation.com/vulcan/ap/rnd/202512/1205/4b8cdac83d4ee1c8ee44a27205d1965dac52bcd127d071a0.jpg',
-      'https://static.wixstatic.com/media/560d55_14483b388cd446c09c7fdd1851a73e17~mv2.jpg/v1/fill/w_2500,h_1406,al_c/560d55_14483b388cd446c09c7fdd1851a73e17~mv2.jpg',
-    ],
+  // Cover art is local-only. There are no external image requests at page-load time.
+  const safeLocalCover = (value = '') => {
+    const v = String(value || '').trim();
+    return /^(?:\.\/)?assets\/covers\/[a-zA-Z0-9_.%-]+\.webp$/i.test(v) ? v : '';
   };
   const palettes = [ ['#293846','#152d35'], ['#51382f','#282532'], ['#33413a','#1b2d2f'], ['#4d3643','#242532'], ['#423c2c','#242c35'], ['#243a44','#183a3a'], ['#433c45','#242c37'], ['#3d4736','#242d24'] ];
-  const state = { data: null, original: null, rank: 'favorites', quick: 'all', query: '', genre: '全部', status: '全部', sort: 'default', editMode: false, modalGameId: null };
+  const state = { data: null, original: null, rank: 'recommendations', quick: 'all', query: '', genre: '全部', status: '全部', sort: 'default', editMode: false, modalGameId: null };
   let toastHandle;
 
   function toast(message) {
@@ -45,7 +41,7 @@
         hours: g.hours === '' || g.hours == null ? null : Number(g.hours),
         rating: g.rating === '' || g.rating == null ? null : Number(g.rating),
         year: String(g.year || ''), note: String(g.note || ''), privateNote: String(g.privateNote || ''),
-        link: safeUrl(g.link), cover: safeUrl(g.cover),
+        link: safeUrl(g.link), cover: safeLocalCover(g.cover),
         steamId: Number.isInteger(Number(g.steamId)) && g.steamId ? Number(g.steamId) : null
       };
     });
@@ -74,21 +70,14 @@
     const fallback = document.createElement('div'); fallback.className = 'cover-fallback';
     fallback.innerHTML = `<strong class="fallback-title">${escapeHtml(game.title)}</strong><span class="fallback-bottom">${escapeHtml(game.genre)}</span>`;
     wrapper.append(fallback);
-    const selectedCover = safeUrl(game.cover);
-    const sources = selectedCover.startsWith('assets/') ? [selectedCover] : [];
-    sources.push(...(COVER_OVERRIDES[game.title] || []));
-    if (selectedCover && !sources.includes(selectedCover)) sources.push(selectedCover);
-    if (game.steamId) {
-      const base = `https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/${game.steamId}/`;
-      sources.push(base + 'library_600x900_2x.jpg', base + 'library_600x900.jpg', `https://cdn.akamai.steamstatic.com/steam/apps/${game.steamId}/library_600x900.jpg`, base + 'header.jpg');
-    }
-    if (sources.length) {
+    const localCover = safeLocalCover(game.cover);
+    if (localCover) {
       const img = document.createElement('img'); img.className = 'cover-image';
-      img.alt = `《${game.title}》游戏封面`; img.loading = eager ? 'eager' : 'lazy'; img.decoding = 'async';
-      let i = 0;
+      img.alt = `《${game.title}》封面`; img.loading = eager ? 'eager' : 'lazy'; img.decoding = 'async';
       img.onload = () => wrapper.classList.add('has-image');
-      img.onerror = () => { wrapper.classList.remove('has-image'); if (++i < sources.length) img.src = sources[i]; else img.remove(); };
-      img.src = sources[0]; wrapper.append(img);
+      img.onerror = () => { wrapper.classList.remove('has-image'); img.remove(); };
+      img.src = window.__GAME_ARCHIVE_COVERS__?.[localCover] || localCover;
+      wrapper.append(img);
     }
     return wrapper;
   }
@@ -105,13 +94,13 @@
       const active = btn.dataset.rank === state.rank;
       btn.classList.toggle('is-active', active); btn.setAttribute('aria-selected', String(active));
     });
-    $('#rank-caption').textContent = state.rank === 'favorites' ? '心中最爱 Top 10' : '推荐游玩 Top 10';
+    $('#rank-caption').textContent = state.rank === 'favorites' ? '心中最爱 Top 10' : '当期推荐游玩 Top 10';
     const wrap = $('#rank-scroll'); wrap.replaceChildren();
     rankList(state.rank).forEach((id, i) => {
       const g = getGame(id); if (!g) return;
       const item = document.createElement('article'); item.className='rank-card'; item.setAttribute('role','button'); item.tabIndex=0;
       item.setAttribute('aria-label', `第${i+1}名，${g.title}，查看详情`);
-      const cover=makeCover(g,'rank-cover', i < 3);
+      const cover=makeCover(g,'rank-cover', true);
       const number=document.createElement('span');number.className='rank-number';number.textContent=String(i+1).padStart(2,'0');cover.append(number);
       const title=document.createElement('div');title.className='rank-title';title.textContent=g.title;
       const genre=document.createElement('div');genre.className='rank-genre';genre.textContent=g.genre + (g.rating!=null?'  ·  '+g.rating+'/10':'');
@@ -156,7 +145,7 @@
       const btn=document.createElement('button');btn.type='button';btn.className='game-card';btn.setAttribute('aria-label', `${g.title}，查看${state.editMode?'编辑':'游戏'}详情`);
       const cover=makeCover(g,'game-image',false);
       if(state.data.favoriteIds.includes(g.id)){const tag=document.createElement('span');tag.className='badge-fav';tag.textContent='♥';tag.title='心中 Top 10';cover.append(tag);}
-      if(state.data.recommendationIds.includes(g.id)){const tag=document.createElement('span');tag.className='badge-rec';tag.textContent='TOP 10';tag.title='立刻推荐';cover.append(tag);}
+      if(state.data.recommendationIds.includes(g.id)){const tag=document.createElement('span');tag.className='badge-rec';tag.textContent='TOP 10';tag.title='当期推荐游玩';cover.append(tag);}
       const title=document.createElement('div');title.className='game-title';title.textContent=g.title;
       const sub=document.createElement('div');sub.className='game-subline';
       const genre=document.createElement('span');genre.textContent=g.genre;sub.append(genre);
@@ -178,7 +167,7 @@
     const right=document.createElement('div');
     const favored=state.data.favoriteIds.indexOf(id);const recommended=state.data.recommendationIds.indexOf(id);
     const note=state.data.recommendationNotes[id];
-    right.innerHTML = `<p class="detail-kicker">${favored>=0?`♥  心中 Top ${favored+1}`:recommended>=0?`↗  立刻推荐 Top ${recommended+1}`:''}</p>
+    right.innerHTML = `<p class="detail-kicker">${favored>=0?`♥  心中 Top ${favored+1}`:recommended>=0?`↗  当期推荐 Top ${recommended+1}`:''}</p>
       <h2 class="detail-title">${escapeHtml(g.title)}</h2><div class="detail-tags">${[g.genre,...g.tags].map(x=>`<span>${escapeHtml(x)}</span>`).join('')}</div>
       <div class="detail-info"><div><small>游玩状态</small>${escapeHtml(g.status)}</div><div><small>获取状态</small>${escapeHtml(g.ownership)}</div><div><small>平台</small>${escapeHtml(g.platform||'待补充')}</div><div><small>个人评分</small>${g.rating==null?'待补充':escapeHtml(g.rating)+'/10'}</div><div><small>游玩时长</small>${g.hours==null?'待补充':escapeHtml(g.hours)+' 小时'}</div><div><small>愿望优先级</small>${escapeHtml(g.priority||'—')}</div></div>
       ${(g.note||note)?`<p class="detail-note">${escapeHtml(g.note||note)}</p>`:''}<div class="detail-actions"></div>`;
@@ -216,15 +205,15 @@
       <label class="field">游玩时长（小时，可空） <input name="hours" type="number" value="${g.hours??''}" min="0" step="0.5"></label>
       <label class="field wide">一句话评价 / 心得<textarea name="note" rows="3" placeholder="记录你为什么喜欢（或不喜欢）这款游戏">${escapeHtml(g.note)}</textarea></label>
       <label class="field wide">作品介绍链接（Bangumi 等）<input name="link" type="url" value="${escapeHtml(g.link)}" placeholder="https://bgm.tv/subject/..."></label>
-      <label class="field wide">自定义封面 URL（可空）<input name="cover" type="text" value="${escapeHtml(g.cover)}" placeholder="https://.../cover.jpg 或 ./assets/covers/xxx.jpg"></label>
+      <label class="field wide">本地 WebP 路径（可空）<input name="cover" type="text" value="${escapeHtml(g.cover)}" placeholder="./assets/covers/xxx.webp"></label>
       <label class="field">Steam App ID（可空）<input name="steamId" type="number" min="1" value="${g.steamId??''}" placeholder="例如 367520"></label>
       <label class="field">整理备注（不在页面显示，但会包含在公开 JSON 中）<input name="privateNote" value="${escapeHtml(g.privateNote)}"></label>
       </div>
-      <div class="form-checkboxes"><label><input name="favorite" type="checkbox" ${rankFav?'checked':''}> ♥ 心中 Top 10</label><label><input name="recommendation" type="checkbox" ${rankRec?'checked':''}> ↗ 立刻推荐 Top 10</label></div>
+      <div class="form-checkboxes"><label><input name="favorite" type="checkbox" ${rankFav?'checked':''}> ♥ 心中 Top 10</label><label><input name="recommendation" type="checkbox" ${rankRec?'checked':''}> ↗ 当期推荐 Top 10</label></div>
       <div class="form-grid"><label class="field">心中榜单名次（1～10）<input name="favPos" type="number" min="1" max="10" value="${rankFav||''}" placeholder="留空则排在最后"></label>
       <label class="field">推荐榜单名次（1～10）<input name="recPos" type="number" min="1" max="10" value="${rankRec||''}" placeholder="留空则排在最后"></label>
-      <label class="field wide">立刻推荐理由<textarea name="recommendationNote" rows="2" placeholder="推荐给朋友的理由">${escapeHtml(id?(state.data.recommendationNotes[id]||''):'')}</textarea></label></div>
-      <p class="form-hint">封面读取顺序：自定义 URL → Steam 封面 → 自动生成的文字封面。游戏编辑保存在当前浏览器，部署更新需导出并提交 JSON。</p>
+      <label class="field wide">当期推荐理由<textarea name="recommendationNote" rows="2" placeholder="推荐给朋友的理由">${escapeHtml(id?(state.data.recommendationNotes[id]||''):'')}</textarea></label></div>
+      <p class="form-hint">封面只从仓库的 assets/covers/ 加载；批量更新请运行 scripts/fetch_covers.py。游戏编辑保存在当前浏览器，部署更新需导出并提交 JSON。</p>
       <div class="form-controls"><button class="primary-button" type="submit">保存游戏 ✓</button><button class="outline-button" type="button" data-cancel>取消</button><span class="spacer"></span>${old?'<button class="outline-button danger-button" type="button" data-delete>删除游戏</button>':''}</div>`;
     container.append(form);showDialog($('#game-dialog'));
     $('[data-cancel]',form).addEventListener('click',()=>closeDialog($('#game-dialog')));
@@ -247,11 +236,11 @@
         title:val('title'),genre:val('genre'),status:val('status'),ownership:val('ownership'),priority:val('priority'),
         tags:unique(val('tags').split(/[、，,]/).map(s=>s.trim()).filter(Boolean)),
         platform:val('platform'),year:val('year'),rating,hours,note:val('note'),privateNote:val('privateNote'),
-        link:safeUrl(val('link')),cover:safeUrl(val('cover')),steamId:val('steamId')?Number(val('steamId')):null
+        link:safeUrl(val('link')),cover:safeLocalCover(val('cover')),steamId:val('steamId')?Number(val('steamId')):null
       };
       const wantFav=fields.has('favorite'),wantRec=fields.has('recommendation');
       if(wantFav&&!state.data.favoriteIds.includes(result.id)&&state.data.favoriteIds.length>=10){toast('心中 Top 10 已满，请先移除一款');return;}
-      if(wantRec&&!state.data.recommendationIds.includes(result.id)&&state.data.recommendationIds.length>=10){toast('立刻推荐 Top 10 已满，请先移除一款');return;}
+      if(wantRec&&!state.data.recommendationIds.includes(result.id)&&state.data.recommendationIds.length>=10){toast('当期推荐 Top 10 已满，请先移除一款');return;}
       if(old)Object.assign(old,result);else state.data.games.push(result);
       setRankPosition(state.data.favoriteIds,result.id,wantFav,val('favPos'));
       setRankPosition(state.data.recommendationIds,result.id,wantRec,val('recPos'));
@@ -271,6 +260,8 @@
       if(file.size>4*1024*1024)throw new Error('文件太大（超过 4 MB）');
       const imported=normalizeData(JSON.parse(await file.text()));
       if(!confirm(`将导入 ${imported.games.length} 款游戏并替换此浏览器里的清单。确定继续？`))return;
+      const bundled=new Map(state.original.games.map(g=>[g.id,g.cover]));
+      imported.games.forEach(g=>{if(!g.cover && bundled.has(g.id))g.cover=bundled.get(g.id);});
       state.data=imported;persist();toast('导入成功');
     }catch(e){alert(`导入失败：${e.message}`);}
   }
@@ -308,7 +299,12 @@
       if (embedded) raw=JSON.parse(embedded.textContent);
       else { const response=await fetch(SOURCE,{cache:'no-cache'}); if(!response.ok)throw new Error(`HTTP ${response.status}`); raw=await response.json(); }
       const original=normalizeData(raw);state.original=original;state.data=deepCopy(original);
-      try{const stored=localStorage.getItem(STORAGE_KEY);if(stored){state.data=normalizeData(JSON.parse(stored));$('#save-status').textContent='已读取浏览器本地修改';}}catch(e){console.warn('Cannot load local data',e);}
+      try{const stored=localStorage.getItem(STORAGE_KEY);if(stored){
+        state.data=normalizeData(JSON.parse(stored));
+        const bundled=new Map(original.games.map(g=>[g.id,g.cover]));
+        state.data.games.forEach(g=>{if(!g.cover && bundled.has(g.id))g.cover=bundled.get(g.id);});
+        $('#save-status').textContent='已读取浏览器本地修改';
+      }}catch(e){console.warn('Cannot load local data',e);}
       render();
     }catch(err){
       console.error('Failed to load the game library',err);

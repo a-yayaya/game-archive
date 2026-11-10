@@ -1,10 +1,10 @@
 {
   "meta": {
     "siteTitle": "MY GAME ARCHIVE",
-    "tagline": "一些我玩过、喜欢过、准备去玩的游戏。",
+    "tagline": "",
     "updated": "2026-11",
     "owner": "MY GAME ARCHIVE",
-    "description": "已收录的游戏不代表都已通关；游玩状态会逐渐补完。"
+    "description": ""
   },
   "games": [
     {
@@ -26,7 +26,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/62229",
-      "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/42293-1.jpg",
+      "cover": "./assets/covers/game-001.webp",
       "steamId": null
     },
     {
@@ -48,7 +48,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/284506",
-      "cover": "https://i5.walmartimages.com/asr/fe745024-4a88-4e92-8c0d-5cdd1a1326b5.4186558cbf30cf7ddaae40302ac5ce46.jpeg",
+      "cover": "./assets/covers/game-002.webp",
       "steamId": null
     },
     {
@@ -71,7 +71,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/295044",
-      "cover": "",
+      "cover": "./assets/covers/game-003.webp",
       "steamId": 546560
     },
     {
@@ -93,7 +93,7 @@
       "note": "",
       "privateNote": "别名：时空轮回",
       "link": "https://bgm.tv/subject/1126",
-      "cover": "",
+      "cover": "./assets/covers/game-004.webp",
       "steamId": null
     },
     {
@@ -115,7 +115,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/209250",
-      "cover": "",
+      "cover": "./assets/covers/game-005.webp",
       "steamId": 367520
     },
     {
@@ -137,7 +137,7 @@
       "note": "我心中的2025年年度最佳；游戏OST非常好听",
       "privateNote": "别与《空洞骑士》混为同一作品",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-006.webp",
       "steamId": 1030300
     },
     {
@@ -159,7 +159,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/147713",
-      "cover": "",
+      "cover": "./assets/covers/game-007.webp",
       "steamId": 391540
     },
     {
@@ -181,7 +181,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/205916",
-      "cover": "https://videogamesplus.ca/cdn/shop/products/xenoblade-chronicles-2-508077.23_1200x1200.jpg?v=1652462171",
+      "cover": "./assets/covers/game-008.webp",
       "steamId": null
     },
     {
@@ -203,7 +203,7 @@
       "note": "",
       "privateNote": "系列占位，后续拆分具体作品",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-009.webp",
       "steamId": null
     },
     {
@@ -225,7 +225,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/185181",
-      "cover": "",
+      "cover": "./assets/covers/game-010.webp",
       "steamId": 1190460
     },
     {
@@ -247,7 +247,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-011.webp",
       "steamId": 1237970
     },
     {
@@ -269,7 +269,7 @@
       "note": "",
       "privateNote": "原话：地平线4 或者最新作；待确定具体作品",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-012.webp",
       "steamId": 1293830
     },
     {
@@ -291,7 +291,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/264147",
-      "cover": "",
+      "cover": "./assets/covers/game-013.webp",
       "steamId": 653530
     },
     {
@@ -313,7 +313,7 @@
       "note": "国风武侠动作3A，量大管饱",
       "privateNote": "",
       "link": "",
-      "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2810/5d34d0cd910fa48c730a1915b8cf112231c30e667e2169ea.jpg",
+      "cover": "./assets/covers/game-014.webp",
       "steamId": 4115450
     },
     {
@@ -335,7 +335,7 @@
       "note": "",
       "privateNote": "合并原始清单重复的“只狼”",
       "link": "https://bgm.tv/subject/249296",
-      "cover": "",
+      "cover": "./assets/covers/game-015.webp",
       "steamId": 814380
     },
     {
@@ -357,7 +357,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-016.webp",
       "steamId": 524220
     },
     {
@@ -379,7 +379,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-017.webp",
       "steamId": 1446780
     },
     {
@@ -401,7 +401,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/3863",
-      "cover": "",
+      "cover": "./assets/covers/game-018.webp",
       "steamId": null
     },
     {
@@ -423,7 +423,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-019.webp",
       "steamId": 648100
     },
     {
@@ -445,7 +445,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/216896",
-      "cover": "",
+      "cover": "./assets/covers/game-020.webp",
       "steamId": 1057090
     },
     {
@@ -467,7 +467,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/105699",
-      "cover": "https://images.igdb.com/igdb/image/upload/t_1080p/cob99l.webp",
+      "cover": "./assets/covers/game-021.webp",
       "steamId": null
     },
     {
@@ -489,7 +489,7 @@
       "note": "",
       "privateNote": "别名：团子大家族",
       "link": "https://bgm.tv/subject/13",
-      "cover": "",
+      "cover": "./assets/covers/game-022.webp",
       "steamId": 324160
     },
     {
@@ -511,7 +511,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/280440",
-      "cover": "",
+      "cover": "./assets/covers/game-023.webp",
       "steamId": null
     },
     {
@@ -533,7 +533,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/943",
-      "cover": "",
+      "cover": "./assets/covers/game-024.webp",
       "steamId": null
     },
     {
@@ -555,7 +555,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/195573",
-      "cover": "",
+      "cover": "./assets/covers/game-025.webp",
       "steamId": 1174180
     },
     {
@@ -577,7 +577,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/205917",
-      "cover": "https://i5.walmartimages.com/asr/14efb376-2418-4769-bb4c-f38256cbedb6_1.bb5c20b196a38c86a7a67f819ba7fbea.jpeg",
+      "cover": "./assets/covers/game-026.webp",
       "steamId": null
     },
     {
@@ -599,7 +599,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/15912",
-      "cover": "",
+      "cover": "./assets/covers/game-027.webp",
       "steamId": 620
     },
     {
@@ -621,7 +621,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/291280",
-      "cover": "",
+      "cover": "./assets/covers/game-028.webp",
       "steamId": 632470
     },
     {
@@ -643,7 +643,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/284100",
-      "cover": "",
+      "cover": "./assets/covers/game-029.webp",
       "steamId": 1245620
     },
     {
@@ -665,7 +665,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/88868",
-      "cover": "",
+      "cover": "./assets/covers/game-030.webp",
       "steamId": 1687950
     },
     {
@@ -687,7 +687,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/146598",
-      "cover": "",
+      "cover": "./assets/covers/game-031.webp",
       "steamId": null
     },
     {
@@ -709,7 +709,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/137442",
-      "cover": "",
+      "cover": "./assets/covers/game-032.webp",
       "steamId": 374320
     },
     {
@@ -731,7 +731,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/385912",
-      "cover": "",
+      "cover": "./assets/covers/game-033.webp",
       "steamId": 2050650
     },
     {
@@ -753,7 +753,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/490427",
-      "cover": "",
+      "cover": "./assets/covers/game-034.webp",
       "steamId": 1771300
     },
     {
@@ -775,7 +775,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/955",
-      "cover": "",
+      "cover": "./assets/covers/game-035.webp",
       "steamId": null
     },
     {
@@ -797,7 +797,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/144881",
-      "cover": "",
+      "cover": "./assets/covers/game-036.webp",
       "steamId": 303310
     },
     {
@@ -819,7 +819,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/249470",
-      "cover": "https://smashbros.nintendo.com/buy/assets/boxart-retail.png",
+      "cover": "./assets/covers/game-037.webp",
       "steamId": null
     },
     {
@@ -841,7 +841,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/415363",
-      "cover": "",
+      "cover": "./assets/covers/game-038.webp",
       "steamId": 813230
     },
     {
@@ -863,7 +863,7 @@
       "note": "",
       "privateNote": "原话“超级弹丸论破 系列”；暂以链接对应第2作，系列范围待确认",
       "link": "https://bgm.tv/subject/39066",
-      "cover": "",
+      "cover": "./assets/covers/game-039.webp",
       "steamId": 413410
     },
     {
@@ -885,7 +885,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/371498",
-      "cover": "",
+      "cover": "./assets/covers/game-040.webp",
       "steamId": 1364780
     },
     {
@@ -907,7 +907,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/29340",
-      "cover": "",
+      "cover": "./assets/covers/game-041.webp",
       "steamId": 206440
     },
     {
@@ -929,7 +929,7 @@
       "note": "独特的好玩射击游戏，能潜在墨水里",
       "privateNote": "",
       "link": "",
-      "cover": "https://i5.walmartimages.com/seo/Splatoon-3-Nintendo-Switch-Physical-U-S-Version_ced88902-d6b1-4593-8bd9-2a6a74284565.63adb80e4e21ea48fa56277ed39e2b7a.jpeg",
+      "cover": "./assets/covers/game-042.webp",
       "steamId": null
     },
     {
@@ -951,7 +951,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/211667",
-      "cover": "",
+      "cover": "./assets/covers/game-043.webp",
       "steamId": 501300
     },
     {
@@ -973,7 +973,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/325602",
-      "cover": "",
+      "cover": "./assets/covers/game-044.webp",
       "steamId": 1366540
     },
     {
@@ -995,7 +995,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/79217",
-      "cover": "",
+      "cover": "./assets/covers/game-045.webp",
       "steamId": 220200
     },
     {
@@ -1017,7 +1017,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-046.webp",
       "steamId": 413150
     },
     {
@@ -1039,7 +1039,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-047.webp",
       "steamId": 260230
     },
     {
@@ -1061,7 +1061,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-048.webp",
       "steamId": 2358720
     },
     {
@@ -1083,7 +1083,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "https://www.staples.ca/cdn/shop/products/e7fda85a993df2ec31c4243396ace99b4ec7df8f_square2661400_1_1000x.jpg?v=1770393777",
+      "cover": "./assets/covers/game-049.webp",
       "steamId": null
     },
     {
@@ -1105,7 +1105,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-050.webp",
       "steamId": 632360
     },
     {
@@ -1127,7 +1127,7 @@
       "note": "2025年代表游戏，草根团队",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-051.webp",
       "steamId": 1903340
     },
     {
@@ -1149,7 +1149,7 @@
       "note": "",
       "privateNote": "",
       "link": "https://bgm.tv/subject/155358",
-      "cover": "",
+      "cover": "./assets/covers/game-052.webp",
       "steamId": 435150
     },
     {
@@ -1171,7 +1171,7 @@
       "note": "没有代餐，我心中的Top",
       "privateNote": "",
       "link": "https://bgm.tv/subject/283730",
-      "cover": "",
+      "cover": "./assets/covers/game-053.webp",
       "steamId": 753640
     },
     {
@@ -1193,7 +1193,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-054.webp",
       "steamId": 292030
     },
     {
@@ -1215,7 +1215,7 @@
       "note": "任天堂的好玩游戏",
       "privateNote": "",
       "link": "https://www.gamemall.org/zh/games/popular-wikis/donkey-kong-bananza?from=%2Ftga%2Fwinners%23winner-donkey-kong-bananza",
-      "cover": "https://toyorgame.com.sg/cdn/shop/files/CoverNS2_16a516ef-dea7-4588-8dee-4a2aefd4d9fe.png?v=1749532873&width=1024",
+      "cover": "./assets/covers/game-055.webp",
       "steamId": null
     },
     {
@@ -1237,7 +1237,7 @@
       "note": "",
       "privateNote": "由“哈迪斯1和2”拆分",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-056.webp",
       "steamId": 1145360
     },
     {
@@ -1259,7 +1259,7 @@
       "note": "",
       "privateNote": "由“哈迪斯1和2”拆分",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-057.webp",
       "steamId": 1145350
     },
     {
@@ -1281,7 +1281,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-058.webp",
       "steamId": 17390
     },
     {
@@ -1303,7 +1303,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-059.webp",
       "steamId": 275850
     },
     {
@@ -1325,7 +1325,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-060.webp",
       "steamId": 2863640
     },
     {
@@ -1347,7 +1347,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-061.webp",
       "steamId": 1601580
     },
     {
@@ -1369,7 +1369,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-062.webp",
       "steamId": 312520
     },
     {
@@ -1391,7 +1391,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-063.webp",
       "steamId": 1859910
     },
     {
@@ -1413,7 +1413,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-064.webp",
       "steamId": 1876890
     },
     {
@@ -1435,7 +1435,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-065.webp",
       "steamId": 1091500
     },
     {
@@ -1457,7 +1457,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-066.webp",
       "steamId": 1817230
     },
     {
@@ -1479,7 +1479,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-067.webp",
       "steamId": 1113560
     },
     {
@@ -1501,7 +1501,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-068.webp",
       "steamId": 2215430
     },
     {
@@ -1523,7 +1523,7 @@
       "note": "最经典的战地；单人剧情也不错",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-069.webp",
       "steamId": 1238840
     },
     {
@@ -1545,7 +1545,7 @@
       "note": "射击游戏，放空大脑，按摩褶皱",
       "privateNote": "联机枪战放松大脑",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-070.webp",
       "steamId": 2807960
     },
     {
@@ -1567,7 +1567,7 @@
       "note": "放空大脑，按摩褶皱",
       "privateNote": "刷刷刷游戏，放空大脑",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-071.webp",
       "steamId": 2344520
     },
     {
@@ -1589,7 +1589,7 @@
       "note": "",
       "privateNote": "系列占位：起源／奥德赛／英灵殿，可逐步拆成三行",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-072.webp",
       "steamId": null
     },
     {
@@ -1611,7 +1611,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-073.webp",
       "steamId": 601150
     },
     {
@@ -1633,7 +1633,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-074.webp",
       "steamId": 588650
     },
     {
@@ -1655,7 +1655,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-075.webp",
       "steamId": 268910
     },
     {
@@ -1677,7 +1677,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-076.webp",
       "steamId": 418370
     },
     {
@@ -1699,7 +1699,7 @@
       "note": "",
       "privateNote": "用户写“刺客信条黑旗重制版”；已对应官方名称",
       "link": "https://news.ubisoft.com/en-us/article/3TjOFiv6BDHwziF06nW4O8/assassins-creed-black-flag-resynced-everything-you-need-to-know-for-launch",
-      "cover": "",
+      "cover": "./assets/covers/game-077.webp",
       "steamId": null
     },
     {
@@ -1721,7 +1721,7 @@
       "note": "",
       "privateNote": "原注：射击扫毒类",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-078.webp",
       "steamId": 2369390
     },
     {
@@ -1744,7 +1744,7 @@
       "note": "跑团类游戏，拉瑞安独一份的游戏风格",
       "privateNote": "来自“立刻推荐 TOP10”，主清单没有单列",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-079.webp",
       "steamId": 1086940
     },
     {
@@ -1766,7 +1766,7 @@
       "note": "",
       "privateNote": "来自“心中 TOP10”，主清单没有单列",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-080.webp",
       "steamId": 570
     },
     {
@@ -1788,7 +1788,7 @@
       "note": "画面比较好，可以当旅游看风景，还有部分人文地理",
       "privateNote": "来自“立刻推荐 TOP10”的泛系列推荐；不同于神话三部曲单独一项",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-081.webp",
       "steamId": null
     },
     {
@@ -1811,7 +1811,7 @@
       "note": "",
       "privateNote": "",
       "link": "",
-      "cover": "",
+      "cover": "./assets/covers/game-082.webp",
       "steamId": 646570
     }
   ],

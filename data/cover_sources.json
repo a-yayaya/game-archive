@@ -1,0 +1,515 @@
+{
+  "game-001": {
+    "title": "塞尔达传说：旷野之息",
+    "directUrls": [
+      "https://cdn.thegamesdb.net/images/original/boxart/front/42293-1.jpg"
+    ],
+    "steamId": null,
+    "bangumiId": 62229
+  },
+  "game-002": {
+    "title": "塞尔达传说：王国之泪",
+    "directUrls": [
+      "https://i5.walmartimages.com/asr/fe745024-4a88-4e92-8c0d-5cdd1a1326b5.4186558cbf30cf7ddaae40302ac5ce46.jpeg"
+    ],
+    "steamId": null,
+    "bangumiId": 284506
+  },
+  "game-003": {
+    "title": "半衰期：爱莉克斯",
+    "directUrls": [],
+    "steamId": 546560,
+    "bangumiId": 295044
+  },
+  "game-004": {
+    "title": "Ever17 -the out of infinity-",
+    "directUrls": [],
+    "steamId": null,
+    "bangumiId": 1126
+  },
+  "game-005": {
+    "title": "空洞骑士",
+    "directUrls": [],
+    "steamId": 367520,
+    "bangumiId": 209250
+  },
+  "game-006": {
+    "title": "空洞骑士：丝之歌",
+    "directUrls": [],
+    "steamId": 1030300,
+    "bangumiId": null
+  },
+  "game-007": {
+    "title": "传说之下",
+    "directUrls": [],
+    "steamId": 391540,
+    "bangumiId": 147713
+  },
+  "game-008": {
+    "title": "异度神剑2",
+    "directUrls": [
+      "https://videogamesplus.ca/cdn/shop/products/xenoblade-chronicles-2-508077.23_1200x1200.jpg?v=1652462171"
+    ],
+    "steamId": null,
+    "bangumiId": 205916
+  },
+  "game-009": {
+    "title": "战神（系列）",
+    "directUrls": [],
+    "steamId": null,
+    "bangumiId": null
+  },
+  "game-010": {
+    "title": "死亡搁浅",
+    "directUrls": [],
+    "steamId": 1190460,
+    "bangumiId": 185181
+  },
+  "game-011": {
+    "title": "泰坦陨落2",
+    "directUrls": [],
+    "steamId": 1237970,
+    "bangumiId": null
+  },
+  "game-012": {
+    "title": "极限竞速：地平线4／新作（待定）",
+    "directUrls": [],
+    "steamId": 1293830,
+    "bangumiId": null
+  },
+  "game-013": {
+    "title": "奥伯拉丁号归来",
+    "directUrls": [],
+    "steamId": 653530,
+    "bangumiId": 264147
+  },
+  "game-014": {
+    "title": "影之刃零",
+    "directUrls": [
+      "https://image.api.playstation.com/vulcan/ap/rnd/202512/1206/8c42cb9cf076970e2fb638d5b608a89beb9d71eecdaac915.jpg",
+      "https://image.api.playstation.com/vulcan/ap/rnd/202607/2810/5d34d0cd910fa48c730a1915b8cf112231c30e667e2169ea.jpg"
+    ],
+    "steamId": 4115450,
+    "bangumiId": null
+  },
+  "game-015": {
+    "title": "只狼：影逝二度",
+    "directUrls": [],
+    "steamId": 814380,
+    "bangumiId": 249296
+  },
+  "game-016": {
+    "title": "尼尔：机械纪元",
+    "directUrls": [],
+    "steamId": 524220,
+    "bangumiId": null
+  },
+  "game-017": {
+    "title": "怪物猎人：崛起",
+    "directUrls": [],
+    "steamId": 1446780,
+    "bangumiId": null
+  },
+  "game-018": {
+    "title": "极限脱出：9小时9人9扇门",
+    "directUrls": [],
+    "steamId": null,
+    "bangumiId": 3863
+  },
+  "game-019": {
+    "title": "人狼村之谜",
+    "directUrls": [],
+    "steamId": 648100,
+    "bangumiId": null
+  },
+  "game-020": {
+    "title": "精灵与萤火意志",
+    "directUrls": [],
+    "steamId": 1057090,
+    "bangumiId": 216896
+  },
+  "game-021": {
+    "title": "血源诅咒",
+    "directUrls": [
+      "https://images.igdb.com/igdb/image/upload/t_1080p/cob99l.webp"
+    ],
+    "steamId": null,
+    "bangumiId": 105699
+  },
+  "game-022": {
+    "title": "CLANNAD",
+    "directUrls": [],
+    "steamId": 324160,
+    "bangumiId": 13
+  },
+  "game-023": {
+    "title": "死月妖花～四月八日～",
+    "directUrls": [],
+    "steamId": null,
+    "bangumiId": 280440
+  },
+  "game-024": {
+    "title": "逆转裁判3",
+    "directUrls": [],
+    "steamId": null,
+    "bangumiId": 943
+  },
+  "game-025": {
+    "title": "荒野大镖客：救赎2",
+    "directUrls": [],
+    "steamId": 1174180,
+    "bangumiId": 195573
+  },
+  "game-026": {
+    "title": "超级马力欧：奥德赛",
+    "directUrls": [
+      "https://i5.walmartimages.com/asr/14efb376-2418-4769-bb4c-f38256cbedb6_1.bb5c20b196a38c86a7a67f819ba7fbea.jpeg"
+    ],
+    "steamId": null,
+    "bangumiId": 205917
+  },
+  "game-027": {
+    "title": "传送门2",
+    "directUrls": [],
+    "steamId": 620,
+    "bangumiId": 15912
+  },
+  "game-028": {
+    "title": "极乐迪斯科",
+    "directUrls": [],
+    "steamId": 632470,
+    "bangumiId": 291280
+  },
+  "game-029": {
+    "title": "艾尔登法环",
+    "directUrls": [],
+    "steamId": 1245620,
+    "bangumiId": 284100
+  },
+  "game-030": {
+    "title": "女神异闻录5",
+    "directUrls": [],
+    "steamId": 1687950,
+    "bangumiId": 88868
+  },
+  "game-031": {
+    "title": "十三机兵防卫圈",
+    "directUrls": [],
+    "steamId": null,
+    "bangumiId": 146598
+  },
+  "game-032": {
+    "title": "黑暗之魂3",
+    "directUrls": [],
+    "steamId": 374320,
+    "bangumiId": 137442
+  },
+  "game-033": {
+    "title": "生化危机4：重制版",
+    "directUrls": [],
+    "steamId": 2050650,
+    "bangumiId": 385912
+  },
+  "game-034": {
+    "title": "天国：拯救2",
+    "directUrls": [],
+    "steamId": 1771300,
+    "bangumiId": 490427
+  },
+  "game-035": {
+    "title": "428：被封锁的涩谷",
+    "directUrls": [],
+    "steamId": null,
+    "bangumiId": 955
+  },
+  "game-036": {
+    "title": "海市蜃楼之馆",
+    "directUrls": [],
+    "steamId": 303310,
+    "bangumiId": 144881
+  },
+  "game-037": {
+    "title": "任天堂明星大乱斗：特别版",
+    "directUrls": [
+      "https://smashbros.nintendo.com/buy/assets/boxart-retail.png"
+    ],
+    "steamId": null,
+    "bangumiId": 249470
+  },
+  "game-038": {
+    "title": "动物井",
+    "directUrls": [],
+    "steamId": 813230,
+    "bangumiId": 415363
+  },
+  "game-039": {
+    "title": "超级弹丸论破2：再见绝望学园",
+    "directUrls": [],
+    "steamId": 413410,
+    "bangumiId": 39066
+  },
+  "game-040": {
+    "title": "街头霸王6",
+    "directUrls": [],
+    "steamId": 1364780,
+    "bangumiId": 371498
+  },
+  "game-041": {
+    "title": "去月球",
+    "directUrls": [],
+    "steamId": 206440,
+    "bangumiId": 29340
+  },
+  "game-042": {
+    "title": "Splatoon 3",
+    "directUrls": [
+      "https://i5.walmartimages.com/seo/Splatoon-3-Nintendo-Switch-Physical-U-S-Version_ced88902-d6b1-4593-8bd9-2a6a74284565.63adb80e4e21ea48fa56277ed39e2b7a.jpeg"
+    ],
+    "steamId": null,
+    "bangumiId": null
+  },
+  "game-043": {
+    "title": "艾迪芬奇的记忆",
+    "directUrls": [],
+    "steamId": 501300,
+    "bangumiId": 211667
+  },
+  "game-044": {
+    "title": "戴森球计划",
+    "directUrls": [],
+    "steamId": 1366540,
+    "bangumiId": 325602
+  },
+  "game-045": {
+    "title": "坎巴拉太空计划",
+    "directUrls": [],
+    "steamId": 220200,
+    "bangumiId": 79217
+  },
+  "game-046": {
+    "title": "星露谷物语",
+    "directUrls": [],
+    "steamId": 413150,
+    "bangumiId": null
+  },
+  "game-047": {
+    "title": "勇敢的心：世界大战",
+    "directUrls": [],
+    "steamId": 260230,
+    "bangumiId": null
+  },
+  "game-048": {
+    "title": "黑神话：悟空",
+    "directUrls": [],
+    "steamId": 2358720,
+    "bangumiId": null
+  },
+  "game-049": {
+    "title": "马力欧卡丁车8 豪华版",
+    "directUrls": [
+      "https://www.staples.ca/cdn/shop/products/e7fda85a993df2ec31c4243396ace99b4ec7df8f_square2661400_1_1000x.jpg?v=1770393777"
+    ],
+    "steamId": null,
+    "bangumiId": null
+  },
+  "game-050": {
+    "title": "雨中冒险2",
+    "directUrls": [],
+    "steamId": 632360,
+    "bangumiId": null
+  },
+  "game-051": {
+    "title": "光与影：33号远征队",
+    "directUrls": [],
+    "steamId": 1903340,
+    "bangumiId": null
+  },
+  "game-052": {
+    "title": "神界：原罪2",
+    "directUrls": [],
+    "steamId": 435150,
+    "bangumiId": 155358
+  },
+  "game-053": {
+    "title": "星际拓荒",
+    "directUrls": [],
+    "steamId": 753640,
+    "bangumiId": 283730
+  },
+  "game-054": {
+    "title": "巫师3：狂猎",
+    "directUrls": [],
+    "steamId": 292030,
+    "bangumiId": null
+  },
+  "game-055": {
+    "title": "咚奇刚：蕉力全开",
+    "directUrls": [
+      "https://toyorgame.com.sg/cdn/shop/files/CoverNS2_16a516ef-dea7-4588-8dee-4a2aefd4d9fe.png?v=1749532873&width=1024"
+    ],
+    "steamId": null,
+    "bangumiId": null
+  },
+  "game-056": {
+    "title": "哈迪斯",
+    "directUrls": [],
+    "steamId": 1145360,
+    "bangumiId": null
+  },
+  "game-057": {
+    "title": "哈迪斯2",
+    "directUrls": [],
+    "steamId": 1145350,
+    "bangumiId": null
+  },
+  "game-058": {
+    "title": "孢子",
+    "directUrls": [],
+    "steamId": 17390,
+    "bangumiId": null
+  },
+  "game-059": {
+    "title": "无人深空",
+    "directUrls": [],
+    "steamId": 275850,
+    "bangumiId": null
+  },
+  "game-060": {
+    "title": "The Midnight Walk",
+    "directUrls": [],
+    "steamId": 2863640,
+    "bangumiId": null
+  },
+  "game-061": {
+    "title": "冰汽时代2",
+    "directUrls": [],
+    "steamId": 1601580,
+    "bangumiId": null
+  },
+  "game-062": {
+    "title": "雨世界",
+    "directUrls": [],
+    "steamId": 312520,
+    "bangumiId": null
+  },
+  "game-063": {
+    "title": "活侠传",
+    "directUrls": [],
+    "steamId": 1859910,
+    "bangumiId": null
+  },
+  "game-064": {
+    "title": "逸剑风云决",
+    "directUrls": [],
+    "steamId": 1876890,
+    "bangumiId": null
+  },
+  "game-065": {
+    "title": "赛博朋克2077",
+    "directUrls": [],
+    "steamId": 1091500,
+    "bangumiId": null
+  },
+  "game-066": {
+    "title": "Hi-Fi Rush",
+    "directUrls": [],
+    "steamId": 1817230,
+    "bangumiId": null
+  },
+  "game-067": {
+    "title": "尼尔：人工生命 ver.1.22474487139...",
+    "directUrls": [],
+    "steamId": 1113560,
+    "bangumiId": null
+  },
+  "game-068": {
+    "title": "对马岛之魂",
+    "directUrls": [],
+    "steamId": 2215430,
+    "bangumiId": null
+  },
+  "game-069": {
+    "title": "战地1",
+    "directUrls": [],
+    "steamId": 1238840,
+    "bangumiId": null
+  },
+  "game-070": {
+    "title": "战地6",
+    "directUrls": [],
+    "steamId": 2807960,
+    "bangumiId": null
+  },
+  "game-071": {
+    "title": "暗黑破坏神4",
+    "directUrls": [],
+    "steamId": 2344520,
+    "bangumiId": null
+  },
+  "game-072": {
+    "title": "刺客信条：神话三部曲（系列）",
+    "directUrls": [],
+    "steamId": null,
+    "bangumiId": null
+  },
+  "game-073": {
+    "title": "鬼泣5",
+    "directUrls": [],
+    "steamId": 601150,
+    "bangumiId": null
+  },
+  "game-074": {
+    "title": "死亡细胞",
+    "directUrls": [],
+    "steamId": 588650,
+    "bangumiId": null
+  },
+  "game-075": {
+    "title": "茶杯头",
+    "directUrls": [],
+    "steamId": 268910,
+    "bangumiId": null
+  },
+  "game-076": {
+    "title": "生化危机7",
+    "directUrls": [],
+    "steamId": 418370,
+    "bangumiId": null
+  },
+  "game-077": {
+    "title": "刺客信条：黑旗 记忆重置",
+    "directUrls": [],
+    "steamId": null,
+    "bangumiId": null
+  },
+  "game-078": {
+    "title": "孤岛惊魂6",
+    "directUrls": [],
+    "steamId": 2369390,
+    "bangumiId": null
+  },
+  "game-079": {
+    "title": "博德之门3",
+    "directUrls": [],
+    "steamId": 1086940,
+    "bangumiId": null
+  },
+  "game-080": {
+    "title": "Dota 2",
+    "directUrls": [],
+    "steamId": 570,
+    "bangumiId": null
+  },
+  "game-081": {
+    "title": "刺客信条（系列）",
+    "directUrls": [],
+    "steamId": null,
+    "bangumiId": null
+  },
+  "game-082": {
+    "title": "杀戮尖塔",
+    "directUrls": [],
+    "steamId": 646570,
+    "bangumiId": null
+  }
+}
