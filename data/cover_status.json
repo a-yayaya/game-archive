@@ -33,7 +33,7 @@
   },
   "game-009": {
     "status": "placeholder",
-    "source": "download failed or no public source"
+    "source": "Waiting to download Bangumi subject 6309"
   },
   "game-010": {
     "status": "downloaded",
@@ -276,8 +276,8 @@
     "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1238840/library_600x900_2x.jpg"
   },
   "game-070": {
-    "status": "downloaded",
-    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2807960/library_600x900_2x.jpg"
+    "status": "placeholder",
+    "source": "Waiting to download Bangumi subject 513603"
   },
   "game-071": {
     "status": "downloaded",
@@ -325,11 +325,11 @@
   },
   "game-085": {
     "status": "placeholder",
-    "source": "download failed or no public source"
+    "source": "Waiting to download Bangumi subject 6310"
   },
   "game-086": {
     "status": "placeholder",
-    "source": "download failed or no public source"
+    "source": "Waiting to download Bangumi subject 8271"
   },
   "game-087": {
     "status": "downloaded",

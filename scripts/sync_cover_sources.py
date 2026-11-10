@@ -37,7 +37,7 @@ def sync() -> int:
             added+=1
         else:
             sources[gid]['title']=g['title']
-            if g.get('steamId'): sources[gid]['steamId']=g['steamId']
+            if g.get('steamId') and not sources[gid].get('preferBangumi'): sources[gid]['steamId']=g['steamId']
         path=ROOT/'assets/covers'/f'{gid}.webp'
         if not path.is_file():draw_placeholder(g['title'],path)
         if gid not in status:status[gid]={'status':'placeholder','source':'local generated fallback'}

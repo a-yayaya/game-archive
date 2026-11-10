@@ -57,7 +57,8 @@
     "title": "战神（2005）",
     "directUrls": [],
     "steamId": null,
-    "bangumiId": null
+    "bangumiId": 6309,
+    "preferBangumi": true
   },
   "game-010": {
     "title": "死亡搁浅",
@@ -437,8 +438,9 @@
   "game-070": {
     "title": "战地6",
     "directUrls": [],
-    "steamId": 2807960,
-    "bangumiId": null
+    "steamId": null,
+    "bangumiId": 513603,
+    "preferBangumi": true
   },
   "game-071": {
     "title": "暗黑破坏神4",
@@ -479,7 +481,7 @@
   "game-077": {
     "title": "刺客信条：黑旗 记忆重置",
     "directUrls": [],
-    "steamId": null,
+    "steamId": 3751950,
     "bangumiId": null
   },
   "game-078": {
@@ -510,13 +512,15 @@
     "title": "战神2",
     "directUrls": [],
     "steamId": null,
-    "bangumiId": null
+    "bangumiId": 6310,
+    "preferBangumi": true
   },
   "game-086": {
     "title": "战神3",
     "directUrls": [],
     "steamId": null,
-    "bangumiId": null
+    "bangumiId": 8271,
+    "preferBangumi": true
   },
   "game-087": {
     "title": "战神（2018）",
