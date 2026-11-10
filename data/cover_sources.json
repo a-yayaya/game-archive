@@ -481,8 +481,8 @@
   "game-077": {
     "title": "刺客信条：黑旗 记忆重置",
     "directUrls": [
-    "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/36a1644b03afce1a648ab90b232196609e827539/library_capsule_2x.jpg"
-  ],
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/36a1644b03afce1a648ab90b232196609e827539/library_capsule_2x.jpg"
+    ],
     "steamId": 3751950,
     "bangumiId": null
   },

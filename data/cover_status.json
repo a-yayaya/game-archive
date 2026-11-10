@@ -304,8 +304,8 @@
     "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/418370/library_600x900_2x.jpg"
   },
   "game-077": {
-    "status": "placeholder",
-    "source": "download failed or no public source"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/36a1644b03afce1a648ab90b232196609e827539/library_capsule_2x.jpg"
   },
   "game-078": {
     "status": "downloaded",
