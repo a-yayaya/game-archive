@@ -186,11 +186,77 @@
     },
     {
       "id": "game-009",
-      "title": "战神（系列）",
+      "title": "战神（2005）",
       "genre": "动作冒险",
       "tags": [
         "动作",
-        "神话",
+        "希腊神话",
+        "单人"
+      ],
+      "status": "待确认",
+      "ownership": "待确认",
+      "platform": "",
+      "priority": "",
+      "hours": null,
+      "rating": null,
+      "year": "",
+      "note": "",
+      "privateNote": "",
+      "link": "",
+      "cover": "./assets/covers/game-009.webp",
+      "steamId": null
+    },
+    {
+      "id": "game-085",
+      "title": "战神2",
+      "genre": "动作冒险",
+      "tags": [
+        "动作",
+        "希腊神话",
+        "单人"
+      ],
+      "status": "待确认",
+      "ownership": "待确认",
+      "platform": "",
+      "priority": "",
+      "hours": null,
+      "rating": null,
+      "year": "",
+      "note": "",
+      "privateNote": "",
+      "link": "",
+      "cover": "./assets/covers/game-085.webp",
+      "steamId": null
+    },
+    {
+      "id": "game-086",
+      "title": "战神3",
+      "genre": "动作冒险",
+      "tags": [
+        "动作",
+        "希腊神话",
+        "单人"
+      ],
+      "status": "待确认",
+      "ownership": "待确认",
+      "platform": "",
+      "priority": "",
+      "hours": null,
+      "rating": null,
+      "year": "",
+      "note": "",
+      "privateNote": "",
+      "link": "",
+      "cover": "./assets/covers/game-086.webp",
+      "steamId": null
+    },
+    {
+      "id": "game-087",
+      "title": "战神（2018）",
+      "genre": "动作冒险",
+      "tags": [
+        "动作",
+        "北欧神话",
         "剧情驱动"
       ],
       "status": "待确认",
@@ -201,10 +267,32 @@
       "rating": null,
       "year": "",
       "note": "",
-      "privateNote": "系列占位，后续拆分具体作品",
-      "link": "",
-      "cover": "./assets/covers/game-009.webp",
-      "steamId": null
+      "privateNote": "",
+      "link": "https://store.steampowered.com/app/1593500/",
+      "cover": "./assets/covers/game-087.webp",
+      "steamId": 1593500
+    },
+    {
+      "id": "game-088",
+      "title": "战神：诸神黄昏",
+      "genre": "动作冒险",
+      "tags": [
+        "动作",
+        "北欧神话",
+        "剧情驱动"
+      ],
+      "status": "待确认",
+      "ownership": "待确认",
+      "platform": "",
+      "priority": "",
+      "hours": null,
+      "rating": null,
+      "year": "",
+      "note": "",
+      "privateNote": "",
+      "link": "https://store.steampowered.com/app/2322010/",
+      "cover": "./assets/covers/game-088.webp",
+      "steamId": 2322010
     },
     {
       "id": "game-010",
@@ -1572,12 +1660,36 @@
     },
     {
       "id": "game-072",
-      "title": "刺客信条：神话三部曲（系列）",
+      "title": "刺客信条：起源",
       "genre": "动作冒险",
       "tags": [
         "开放世界",
+        "古埃及",
         "历史",
-        "人文地理"
+        "动作RPG"
+      ],
+      "status": "待确认",
+      "ownership": "待确认",
+      "platform": "",
+      "priority": "",
+      "hours": null,
+      "rating": null,
+      "year": "",
+      "note": "画面比较好，可以当旅游看风景，还有部分人文地理",
+      "privateNote": "",
+      "link": "https://store.steampowered.com/app/582160/",
+      "cover": "./assets/covers/game-072.webp",
+      "steamId": 582160
+    },
+    {
+      "id": "game-083",
+      "title": "刺客信条：奥德赛",
+      "genre": "动作冒险",
+      "tags": [
+        "开放世界",
+        "古希腊",
+        "历史",
+        "动作RPG"
       ],
       "status": "待确认",
       "ownership": "待确认",
@@ -1587,10 +1699,33 @@
       "rating": null,
       "year": "",
       "note": "",
-      "privateNote": "系列占位：起源／奥德赛／英灵殿，可逐步拆成三行",
-      "link": "",
-      "cover": "./assets/covers/game-072.webp",
-      "steamId": null
+      "privateNote": "",
+      "link": "https://store.steampowered.com/app/812140/",
+      "cover": "./assets/covers/game-083.webp",
+      "steamId": 812140
+    },
+    {
+      "id": "game-084",
+      "title": "刺客信条：英灵殿",
+      "genre": "动作冒险",
+      "tags": [
+        "开放世界",
+        "维京",
+        "历史",
+        "动作RPG"
+      ],
+      "status": "待确认",
+      "ownership": "待确认",
+      "platform": "",
+      "priority": "",
+      "hours": null,
+      "rating": null,
+      "year": "",
+      "note": "",
+      "privateNote": "",
+      "link": "https://store.steampowered.com/app/2208920/",
+      "cover": "./assets/covers/game-084.webp",
+      "steamId": 2208920
     },
     {
       "id": "game-073",
@@ -1770,28 +1905,6 @@
       "steamId": 570
     },
     {
-      "id": "game-081",
-      "title": "刺客信条（系列）",
-      "genre": "动作冒险",
-      "tags": [
-        "开放世界",
-        "历史",
-        "潜行"
-      ],
-      "status": "待确认",
-      "ownership": "待确认",
-      "platform": "",
-      "priority": "",
-      "hours": null,
-      "rating": null,
-      "year": "",
-      "note": "画面比较好，可以当旅游看风景，还有部分人文地理",
-      "privateNote": "来自“立刻推荐 TOP10”的泛系列推荐；不同于神话三部曲单独一项",
-      "link": "",
-      "cover": "./assets/covers/game-081.webp",
-      "steamId": null
-    },
-    {
       "id": "game-082",
       "title": "杀戮尖塔",
       "genre": "策略",
@@ -1833,11 +1946,11 @@
     "game-051",
     "game-079",
     "game-053",
-    "game-081",
-    "game-070",
     "game-055",
     "game-042",
-    "game-071"
+    "game-071",
+    "game-077",
+    "game-019"
   ],
   "recommendationNotes": {
     "game-014": "国风武侠动作3A，量大管饱。",
@@ -1845,7 +1958,6 @@
     "game-051": "2025年代表游戏，草根团队。",
     "game-079": "跑团类游戏，拉瑞安独一份的游戏风格。",
     "game-053": "没有代餐。我心中的 Top。",
-    "game-081": "画面很好，可以当旅游看风景，还有部分人文地理。",
     "game-070": "联机枪战，放空大脑，按摩褶皱。",
     "game-055": "任天堂的好玩游戏。",
     "game-042": "独特的射击游戏，能潜在墨水里。",

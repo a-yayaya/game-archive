@@ -54,7 +54,7 @@
     "bangumiId": 205916
   },
   "game-009": {
-    "title": "战神（系列）",
+    "title": "战神（2005）",
     "directUrls": [],
     "steamId": null,
     "bangumiId": null
@@ -447,9 +447,9 @@
     "bangumiId": null
   },
   "game-072": {
-    "title": "刺客信条：神话三部曲（系列）",
+    "title": "刺客信条：起源",
     "directUrls": [],
-    "steamId": null,
+    "steamId": 582160,
     "bangumiId": null
   },
   "game-073": {
@@ -500,16 +500,46 @@
     "steamId": 570,
     "bangumiId": null
   },
-  "game-081": {
-    "title": "刺客信条（系列）",
-    "directUrls": [],
-    "steamId": null,
-    "bangumiId": null
-  },
   "game-082": {
     "title": "杀戮尖塔",
     "directUrls": [],
     "steamId": 646570,
+    "bangumiId": null
+  },
+  "game-085": {
+    "title": "战神2",
+    "directUrls": [],
+    "steamId": null,
+    "bangumiId": null
+  },
+  "game-086": {
+    "title": "战神3",
+    "directUrls": [],
+    "steamId": null,
+    "bangumiId": null
+  },
+  "game-087": {
+    "title": "战神（2018）",
+    "directUrls": [],
+    "steamId": 1593500,
+    "bangumiId": null
+  },
+  "game-088": {
+    "title": "战神：诸神黄昏",
+    "directUrls": [],
+    "steamId": 2322010,
+    "bangumiId": null
+  },
+  "game-083": {
+    "title": "刺客信条：奥德赛",
+    "directUrls": [],
+    "steamId": 812140,
+    "bangumiId": null
+  },
+  "game-084": {
+    "title": "刺客信条：英灵殿",
+    "directUrls": [],
+    "steamId": 2208920,
     "bangumiId": null
   }
 }
