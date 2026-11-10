@@ -1,330 +1,330 @@
 {
   "game-001": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://cdn.thegamesdb.net/images/original/boxart/front/42293-1.jpg"
   },
   "game-002": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://i5.walmartimages.com/asr/fe745024-4a88-4e92-8c0d-5cdd1a1326b5.4186558cbf30cf7ddaae40302ac5ce46.jpeg"
   },
   "game-003": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/546560/library_600x900_2x.jpg"
   },
   "game-004": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://lain.bgm.tv/pic/cover/l/ff/ee/1126_wtoHO.jpg"
   },
   "game-005": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/library_600x900_2x.jpg"
   },
   "game-006": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1030300/library_600x900_2x.jpg"
   },
   "game-007": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391540/library_600x900_2x.jpg"
   },
   "game-008": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://videogamesplus.ca/cdn/shop/products/xenoblade-chronicles-2-508077.23_1200x1200.jpg?v=1652462171"
   },
   "game-009": {
     "status": "placeholder",
-    "source": "local generated fallback"
+    "source": "download failed or no public source"
   },
   "game-010": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1190460/library_600x900_2x.jpg"
   },
   "game-011": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1237970/library_600x900_2x.jpg"
   },
   "game-012": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1293830/library_600x900_2x.jpg"
   },
   "game-013": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/653530/library_600x900_2x.jpg"
   },
   "game-014": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://image.api.playstation.com/vulcan/ap/rnd/202512/1206/8c42cb9cf076970e2fb638d5b608a89beb9d71eecdaac915.jpg"
   },
   "game-015": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/814380/library_600x900_2x.jpg"
   },
   "game-016": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/524220/library_600x900_2x.jpg"
   },
   "game-017": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1446780/library_600x900_2x.jpg"
   },
   "game-018": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://lain.bgm.tv/pic/cover/l/c4/d2/3863_5m7N3.jpg"
   },
   "game-019": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/648100/library_600x900_2x.jpg"
   },
   "game-020": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1057090/library_600x900_2x.jpg"
   },
   "game-021": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/cob99l.webp"
   },
   "game-022": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/324160/library_600x900_2x.jpg"
   },
   "game-023": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://lain.bgm.tv/pic/cover/l/67/0d/280440_do0j5.jpg"
   },
   "game-024": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://lain.bgm.tv/pic/cover/l/2f/88/943_Mz6H3.jpg"
   },
   "game-025": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/library_600x900_2x.jpg"
   },
   "game-026": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://i5.walmartimages.com/asr/14efb376-2418-4769-bb4c-f38256cbedb6_1.bb5c20b196a38c86a7a67f819ba7fbea.jpeg"
   },
   "game-027": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620/library_600x900_2x.jpg"
   },
   "game-028": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/632470/library_600x900_2x.jpg"
   },
   "game-029": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900_2x.jpg"
   },
   "game-030": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1687950/library_600x900_2x.jpg"
   },
   "game-031": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://lain.bgm.tv/pic/cover/l/8a/54/146598_0sSje.jpg"
   },
   "game-032": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/374320/library_600x900_2x.jpg"
   },
   "game-033": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2050650/library_600x900_2x.jpg"
   },
   "game-034": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1771300/library_600x900_2x.jpg"
   },
   "game-035": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://lain.bgm.tv/pic/cover/l/ef/4e/955_ecY9g.jpg"
   },
   "game-036": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/303310/library_600x900_2x.jpg"
   },
   "game-037": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://lain.bgm.tv/pic/cover/l/26/99/249470_Nz99z.jpg"
   },
   "game-038": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/813230/library_600x900_2x.jpg"
   },
   "game-039": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413410/library_600x900_2x.jpg"
   },
   "game-040": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1364780/library_600x900_2x.jpg"
   },
   "game-041": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/206440/library_600x900_2x.jpg"
   },
   "game-042": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://i5.walmartimages.com/seo/Splatoon-3-Nintendo-Switch-Physical-U-S-Version_ced88902-d6b1-4593-8bd9-2a6a74284565.63adb80e4e21ea48fa56277ed39e2b7a.jpeg"
   },
   "game-043": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/501300/library_600x900_2x.jpg"
   },
   "game-044": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1366540/library_600x900_2x.jpg"
   },
   "game-045": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/220200/library_600x900_2x.jpg"
   },
   "game-046": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900_2x.jpg"
   },
   "game-047": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://cdn.cloudflare.steamstatic.com/steam/apps/260230/header.jpg"
   },
   "game-048": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/library_600x900_2x.jpg"
   },
   "game-049": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://www.staples.ca/cdn/shop/products/e7fda85a993df2ec31c4243396ace99b4ec7df8f_square2661400_1_1000x.jpg?v=1770393777"
   },
   "game-050": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/632360/library_600x900_2x.jpg"
   },
   "game-051": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1903340/library_600x900_2x.jpg"
   },
   "game-052": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/435150/library_600x900_2x.jpg"
   },
   "game-053": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/753640/library_600x900_2x.jpg"
   },
   "game-054": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/library_600x900_2x.jpg"
   },
   "game-055": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://toyorgame.com.sg/cdn/shop/files/CoverNS2_16a516ef-dea7-4588-8dee-4a2aefd4d9fe.png?v=1749532873&width=1024"
   },
   "game-056": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145360/library_600x900_2x.jpg"
   },
   "game-057": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145350/library_600x900_2x.jpg"
   },
   "game-058": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/17390/library_600x900_2x.jpg"
   },
   "game-059": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/library_600x900_2x.jpg"
   },
   "game-060": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2863640/library_600x900_2x.jpg"
   },
   "game-061": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1601580/library_600x900_2x.jpg"
   },
   "game-062": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/312520/library_600x900_2x.jpg"
   },
   "game-063": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1859910/library_600x900_2x.jpg"
   },
   "game-064": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1876890/library_600x900_2x.jpg"
   },
   "game-065": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/library_600x900_2x.jpg"
   },
   "game-066": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1817230/library_600x900_2x.jpg"
   },
   "game-067": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1113560/library_600x900_2x.jpg"
   },
   "game-068": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/library_600x900_2x.jpg"
   },
   "game-069": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1238840/library_600x900_2x.jpg"
   },
   "game-070": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2807960/library_600x900_2x.jpg"
   },
   "game-071": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2344520/library_600x900_2x.jpg"
   },
   "game-072": {
     "status": "placeholder",
-    "source": "local generated fallback"
+    "source": "download failed or no public source"
   },
   "game-073": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/601150/library_600x900_2x.jpg"
   },
   "game-074": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/588650/library_600x900_2x.jpg"
   },
   "game-075": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/268910/library_600x900_2x.jpg"
   },
   "game-076": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/418370/library_600x900_2x.jpg"
   },
   "game-077": {
     "status": "placeholder",
-    "source": "local generated fallback"
+    "source": "download failed or no public source"
   },
   "game-078": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2369390/library_600x900_2x.jpg"
   },
   "game-079": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1086940/library_600x900_2x.jpg"
   },
   "game-080": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/570/library_600x900_2x.jpg"
   },
   "game-081": {
     "status": "placeholder",
-    "source": "local generated fallback"
+    "source": "download failed or no public source"
   },
   "game-082": {
-    "status": "placeholder",
-    "source": "local generated fallback"
+    "status": "downloaded",
+    "source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/646570/library_600x900_2x.jpg"
   }
 }
